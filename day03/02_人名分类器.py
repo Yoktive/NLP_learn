@@ -409,7 +409,7 @@ def train_gru():
             output,hidden = my_rnn(x[0], my_rnn.init_hidden())
             # 4.4 计算损失
             my_loss = criterion(output, y)
-            # 4.5 三剑客:梯度清零+反向传播+优化器更新
+            # 4.5 三贱客:梯度清零+反向传播+优化器更新
             optimizer.zero_grad()
             my_loss.backward()
             optimizer.step()
