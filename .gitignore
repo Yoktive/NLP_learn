@@ -1,0 +1,17 @@
+# Only publish day03 and this ignore file
+/*
+!/.gitignore
+!/day03/
+
+# Generated and local files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
